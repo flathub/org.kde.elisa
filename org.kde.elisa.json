@@ -14,10 +14,8 @@
         "--socket=pulseaudio",
         "--device=dri",
         "--system-talk-name=org.freedesktop.UDisks2",
-        "--talk-name=org.kde.baloo",
         "--talk-name=org.kde.StatusNotifierWatcher",
-        "--own-name=org.mpris.MediaPlayer2.elisa",
-        "--env=BALOO_DB_PATH=.local/share/baloo"
+        "--own-name=org.mpris.MediaPlayer2.elisa"
     ],
     "cleanup": [
         "/include",
@@ -81,28 +79,6 @@
             "subdir": "libraries/liblmdb"
         },
         {
-            "config-opts": [
-                "-DBUILD_TESTING=OFF",
-                "-DCMAKE_INSTALL_LIBDIR=lib"
-            ],
-            "name": "baloo",
-            "buildsystem": "cmake-ninja",
-            "builddir": true,
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.115/baloo-5.115.0.tar.xz",
-                    "sha256": "95cb2038efc4b32f3a17d5592bf247815ea6d02fb8707e04b65bdd80d851c108",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 8762,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/frameworks/$major.$minor/baloo-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "elisa",
             "buildsystem": "cmake-ninja",
             "config-opts": [
@@ -111,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.4/src/elisa-23.08.4.tar.xz",
-                    "sha256": "aac8bbd15c8ae7740ae46c48e968d8b950a8f8aaa9081736c0cf08e5c99d5143",
+                    "url": "https://download.kde.org/stable/release-service/24.05.1/src/elisa-24.05.1.tar.xz",
+                    "sha256": "55ed76a676af42c3af455f64a7f63f51a3fbaa619c92d345be6708ad5cdc77e2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 17780,
