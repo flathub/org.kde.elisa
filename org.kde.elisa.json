@@ -111,8 +111,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.4/src/elisa-23.08.4.tar.xz",
-                    "sha256": "aac8bbd15c8ae7740ae46c48e968d8b950a8f8aaa9081736c0cf08e5c99d5143",
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/elisa-24.02.0.tar.xz",
+                    "sha256": "ecb670005aa3bb1dd0f407c2ac0331c703194cfb2b1346492ffc3361b840b8b4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 17780,
