@@ -30,6 +30,7 @@
     ],
     "modules": [
         {
+            "name": "libvlc",
             "config-opts": [
                 "BUILDCC=gcc",
                 "--disable-lua",
@@ -38,7 +39,6 @@
                 "--disable-ncurses",
                 "--disable-udev"
             ],
-            "name": "libvlc",
             "sources": [
                 {
                     "type": "archive",
@@ -59,6 +59,11 @@
         },
         {
             "name": "lmdb",
+            "no-autogen": true,
+            "subdir": "libraries/liblmdb",
+            "make-install-args": [
+                "prefix=/app"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -71,12 +76,7 @@
                         "url-template": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_$version/openldap-LMDB_$version.tar.gz"
                     }
                 }
-            ],
-            "no-autogen": true,
-            "make-install-args": [
-                "prefix=/app"
-            ],
-            "subdir": "libraries/liblmdb"
+            ]
         },
         {
             "name": "elisa",
