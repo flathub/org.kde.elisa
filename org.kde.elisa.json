@@ -44,8 +44,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://get.videolan.org/vlc/3.0.20/vlc-3.0.20.tar.xz",
-                    "sha256": "adc7285b4d2721cddf40eb5270cada2aaa10a334cb546fd55a06353447ba29b5",
+                    "url": "https://get.videolan.org/vlc/3.0.21/vlc-3.0.21.tar.xz",
+                    "sha256": "24dbbe1d7dfaeea0994d5def0bbde200177347136dbfe573f5b6a4cee25afbb0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6504,
@@ -111,8 +111,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.4/src/elisa-23.08.4.tar.xz",
-                    "sha256": "aac8bbd15c8ae7740ae46c48e968d8b950a8f8aaa9081736c0cf08e5c99d5143",
+                    "url": "https://download.kde.org/stable/release-service/24.05.1/src/elisa-24.05.1.tar.xz",
+                    "sha256": "55ed76a676af42c3af455f64a7f63f51a3fbaa619c92d345be6708ad5cdc77e2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 17780,
