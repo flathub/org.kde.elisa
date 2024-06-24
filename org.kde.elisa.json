@@ -6,16 +6,16 @@
     "command": "elisa",
     "rename-icon": "elisa",
     "finish-args": [
+        "--device=dri",
+        "--filesystem=host:ro",
+        "--own-name=org.mpris.MediaPlayer2.elisa",
         "--share=ipc",
         "--share=network",
         "--socket=fallback-x11",
-        "--socket=wayland",
-        "--filesystem=host:ro",
         "--socket=pulseaudio",
-        "--device=dri",
+        "--socket=wayland",
         "--system-talk-name=org.freedesktop.UDisks2",
-        "--talk-name=org.kde.StatusNotifierWatcher",
-        "--own-name=org.mpris.MediaPlayer2.elisa"
+        "--talk-name=org.kde.StatusNotifierWatcher"
     ],
     "cleanup": [
         "/include",
