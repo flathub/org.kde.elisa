@@ -7,7 +7,7 @@
     "rename-icon": "elisa",
     "finish-args": [
         "--device=dri",
-        "--filesystem=host:ro",
+        "--filesystem=xdg-music",
         "--own-name=org.mpris.MediaPlayer2.elisa",
         "--share=ipc",
         "--share=network",
