@@ -92,8 +92,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.4.0.tar.xz",
-                    "sha256": "56e3ceb52055b5603320ea08b27d3673d32a391a8d58646d998227d8b51f0a93",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.5.0.tar.xz",
+                    "sha256": "f9dfd191022b633ea3348f84730d7158a159dfe49668dba0a9e9bd678ac44e54",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -112,8 +112,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/elisa-24.08.1.tar.xz",
-                    "sha256": "cedf6dc9e1d81113e6599041d09b52d4ddf06c94167bdcdcc9b8cb1c66c0a24a",
+                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/elisa-24.08.2.tar.xz",
+                    "sha256": "f9e4eeadd7fd9486e338f13c9f25c5d7d8fb4b9637b828d6fd5254816a07a7c9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 17780,
