@@ -1,7 +1,7 @@
 {
     "id": "org.kde.elisa",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.7",
+    "runtime-version": "6.8",
     "sdk": "org.kde.Sdk",
     "command": "elisa",
     "rename-icon": "elisa",
@@ -15,6 +15,7 @@
         "--socket=pulseaudio",
         "--socket=wayland",
         "--system-talk-name=org.freedesktop.UDisks2",
+        "--talk-name=org.freedesktop.PowerManagement.Inhibit",
         "--talk-name=org.kde.StatusNotifierWatcher"
     ],
     "cleanup": [
@@ -29,6 +30,27 @@
         "/app/lib/vlc/vlc-cache-gen /app/lib/vlc/plugins"
     ],
     "modules": [
+        {
+            "name": "ffmpeg",
+            "config-opts": [
+                "--enable-pic",
+                "--enable-shared",
+                "--disable-doc",
+                "--disable-static",
+                "--enable-gpl",
+                "--enable-libvpx",
+                "--enable-libmp3lame",
+                "--enable-libvorbis",
+                "--enable-libopus"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://ffmpeg.org/releases/ffmpeg-4.4.5.tar.xz",
+                    "sha256": "f9514e0d3515aee5a271283df71636e1d1ff7274b15853bcd84e144be416ab07"
+                }
+            ]
+        },
         {
             "name": "libvlc",
             "config-opts": [
