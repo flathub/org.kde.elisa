@@ -135,18 +135,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.3/src/elisa-24.12.3.tar.xz",
-                    "sha256": "5d19ab3db41cb2133ac5198f686db49e82b2228e80a3d6f425e04f244588ffc3",
+                    "url": "https://download.kde.org/stable/release-service/25.04.0/src/elisa-25.04.0.tar.xz",
+                    "sha256": "96499190370f78e07b3ad21d94d924d021dd17c4bf598b21d01bf02a2a7496af",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 17780,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/elisa-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "appdata.patch"
                 }
             ]
         }
