@@ -77,10 +77,6 @@
                 {
                     "type": "patch",
                     "path": "vlc-ignore-time-for-cache.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "taglib-2.patch"
                 }
             ]
         },
