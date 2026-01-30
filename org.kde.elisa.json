@@ -95,7 +95,8 @@
                         "type": "anitya",
                         "project-id": 17780,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/release-service/$version/src/elisa-$version.tar.xz"
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/elisa-$version.tar.xz",
+                        "is-main-source": true
                     }
                 }
             ]
