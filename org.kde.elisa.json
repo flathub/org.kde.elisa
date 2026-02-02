@@ -23,6 +23,9 @@
         "/include",
         "/lib/pkgconfig",
         "/lib/cmake",
+        "/share/doc",
+        "/share/man",
+        "/share/qlogging-categories6/elisa.categories",
         "*.la",
         "*.a"
     ],
