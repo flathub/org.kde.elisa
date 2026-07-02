@@ -40,8 +40,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_0.9.35/openldap-LMDB_0.9.35.tar.gz",
-                    "sha256": "0d090c6a7c85a4f31a2ab0d734554c21097f24752393a190b0e51996b08f48c4",
+                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_1.0.0/openldap-LMDB_1.0.0.tar.gz",
+                    "sha256": "a61ded12bd9c670038b77483dda13b50684a93a111e53421dfb979624ae9f72e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6974,
@@ -60,8 +60,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/elisa-26.04.2.tar.xz",
-                    "sha256": "c59045647141c8f58e922067f03db1099567a8445d3a4c172241f63ba4e83582",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/elisa-26.04.3.tar.xz",
+                    "sha256": "361e4f5bfe373f340e18e80fe35b8d7c1b6c8f65970b867a2e27e81103ce25d5",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 17780,
