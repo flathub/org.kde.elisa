@@ -31,27 +31,6 @@
     ],
     "modules": [
         {
-            "name": "lmdb",
-            "no-autogen": true,
-            "subdir": "libraries/liblmdb",
-            "make-install-args": [
-                "prefix=/app"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_1.0.0/openldap-LMDB_1.0.0.tar.gz",
-                    "sha256": "a61ded12bd9c670038b77483dda13b50684a93a111e53421dfb979624ae9f72e",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 6974,
-                        "stable-only": true,
-                        "url-template": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_$version/openldap-LMDB_$version.tar.gz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "elisa",
             "buildsystem": "cmake-ninja",
             "config-opts": [
